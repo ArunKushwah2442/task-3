@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="q3.css">
+</head>
+<body>
+    
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <p class="error" id="nameError"></p>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <p class="error" id="emailError"></p>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <p class="error" id="passwordError"></p>
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <p class="error" id="confirmPasswordError"></p>
+        
+        <button type="submit">Register</button>
+    </form>
+    <p class="success" id="successMessage"></p>
+    
+    <script src="q3.js">
+        
+    </script>
+</body>
+</html>
